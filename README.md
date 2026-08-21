@@ -34,33 +34,3 @@ Unlike conventional, disorganized scripts found online, this solution adheres to
 2.  **Engine Optimization:** Replaces deprecated functions like `wait()` with highly efficient alternatives such as `task.wait()` and `RunService` to maintain maximum frame rates.
 3.  **Execution Security:** Implements sophisticated environment hooking and anti-cheat bypass mechanisms to ensure execution remains undetected and anonymous.
 
-### Code Preview
-
-Below is a demonstration of the clean, object-oriented structure utilized within the core logic:
-
-```lua
--- Initializes the Auto Farm Module utilizing a clean OOP structure
-local AutoFarmModule = {}
-AutoFarmModule.__index = AutoFarmModule
-
-function AutoFarmModule.new(playerConfig)
-    local self = setmetatable({}, AutoFarmModule)
-    self.Player = game.Players.LocalPlayer
-    self.IsFarming = false
-    self.Config = playerConfig or {}
-    return self
-end
-
-function AutoFarmModule:Start()
-    self.IsFarming = true
-    print("[System]: Auto Farm sequence initialized...")
-    
-    task.spawn(function()
-        while self.IsFarming do
-            self:EngageTarget()
-            task.wait(0.1) -- CPU performance optimization
-        end
-    end)
-end
-
-return AutoFarmModule
