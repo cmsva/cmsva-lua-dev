@@ -6,7 +6,7 @@
 
 URL_REPO="https://raw.githubusercontent.com/cmsva/cmsva-lua-dev/refs/heads/main/scripts/main.json"
 
-SAVE_DIR="/storage/emulated/0/{thư mục chạy script tự động}"
+SAVE_DIR="/storage/emulated/0/{path_autoexecute}"
 
 # =========================================================
 # APP CONFIG
