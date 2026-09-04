@@ -4,8 +4,8 @@
 # CMSVA SCRIPT INSTALLER
 # =========================================================
 
-URL_REPO="https://raw.githubusercontent.com/cmsva/cmsva-lua-dev/refs/heads/main/scripts/main.json"
-SAVE_DIR="/storage/emulated/0/Delta"
+URL_REPO="https://raw.githubusercontent.com/cmsva/cmsva-lua-dev/main/scripts.json"
+SAVE_DIR="/storage/emulated/0/xxx"
 
 # =========================================================
 # APP CONFIG
