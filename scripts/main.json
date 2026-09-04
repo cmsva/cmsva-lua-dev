@@ -1,1 +1,18 @@
-
+{
+  "scripts": [
+    {
+      "id": 1,
+      "name": "HOHO HUB",
+      "script": "bG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9hY3N1MTIzL0hPSE9fSC9tYWluL0xvYWRpbmdfVUkiKSkoKQ==",
+      "env_key": "ENV_KEY", 
+      "use_env_key": false
+    },
+    {
+      "id": 2,
+      "name": "BANANA HUB",
+      "script": "cmVwZWF0IHdhaXQoKSB1bnRpbCBnYW1lOklzTG9hZGVkKCkgYW5kIGdhbWUuUGxheWVycy5Mb2NhbFBsYXllciAKZ2V0Z2VudigpLktleSA9ICJFTlZfS0VZIiAKbG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9vYmlpeWV1ZW0vdnRoYW5nc2l0aW5rL21haW4vQmFuYW5hSHViLmx1YSIpKSgpIA==",
+      "env_key": "ENV_KEY",
+      "use_env_key": true
+    }
+  ]
+}
